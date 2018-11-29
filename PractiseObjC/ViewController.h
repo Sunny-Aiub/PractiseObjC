@@ -13,11 +13,13 @@
     NSString *name;
     
     int age;
+    
+    double salary;
 }
 
 @property (weak, nonatomic) IBOutlet UITextView *myName;
 @property (weak, nonatomic) IBOutlet UILabel *lblAge;
-@property (weak, nonatomic) IBOutlet UILabel *lblDouble;
+@property (weak, nonatomic) IBOutlet UILabel *lblSalary;
 
 
 @end

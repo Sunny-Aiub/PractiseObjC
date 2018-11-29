@@ -29,12 +29,20 @@ int myAge;
     myAge = 27;
     NSLog(@"My Age:\t%d", myAge);
     age = myAge;
-    name = [NSString stringWithFormat: @"%@ %@", fullName, myName];
-    // fullName + myName;
-    self.myName.text = [NSString stringWithFormat: @"Name: \t %@", name];
-    self.lblAge.text = [NSString stringWithFormat:@"Age:%d", age];
+    
+    salary = 123456;
+    [self myPersonalDetails];
 }
 
+-(void) myPersonalDetails{
+    
+    name = [NSString stringWithFormat: @"%@ %@", fullName, myName];
+    // fullName + myName;
+    self.myName.text = [NSString stringWithFormat: @"%@", name];
+    self.lblAge.text = [NSString stringWithFormat:@"%d", age];
+    self.lblSalary.text = [NSString stringWithFormat:@"%f", salary];
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

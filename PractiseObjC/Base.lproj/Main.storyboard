@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HJu-fv-9QD">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HJu-fv-9QD">
                                 <rect key="frame" x="120.5" y="20" width="246.5" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -101,7 +101,7 @@
                     </view>
                     <connections>
                         <outlet property="lblAge" destination="CjY-y6-nWI" id="5ve-zN-gd9"/>
-                        <outlet property="lblDouble" destination="tWc-x8-71t" id="2IR-k6-3fP"/>
+                        <outlet property="lblSalary" destination="tWc-x8-71t" id="49B-Va-pfS"/>
                         <outlet property="myName" destination="HJu-fv-9QD" id="aWB-c7-dTh"/>
                     </connections>
                 </viewController>
